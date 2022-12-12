@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+  /* Colors: */
+  --unnamed-color-70b4c3: #70B4C3;
+  --unnamed-color-848484: #848484;
+  --unnamed-color-18495c: #18495C;
+  --unnamed-color-141414: #141414;
+  --unnamed-color-042a38: #042A38;
+  --unnamed-color-f4ab22: #F4AB22;
+
+  /* Font/text values */
+  --unnamed-font-family-inter: Inter;
+  --unnamed-font-family-druk: Druk;
+  --unnamed-font-family-font-awesome-5-free: Font Awesome 5 Free;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-12: 12px;
+  --unnamed-font-size-13: 13px;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-40: 40px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-character-spacing--0-24: -0.24px;
+  --unnamed-character-spacing--0-54: -0.54px;
+  --unnamed-character-spacing--0-66: -0.66px;
+  --unnamed-character-spacing--0-39: -0.39px;
+  --unnamed-character-spacing--0-32: -0.32px;
+  --unnamed-line-spacing-15: 15px;
+  --unnamed-line-spacing-18: 18px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-26: 26px;
+  --unnamed-line-spacing-48: 48px;
+  --unnamed-text-transform-uppercase: uppercase;
+}
+
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-font-awesome-5-free);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-12);
+  line-height: var(--unnamed-line-spacing-15);
+  letter-spacing: var(--unnamed-character-spacing--0-24);
+  color: var(--unnamed-color-042a38);
+}
+
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-inter);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-12);
+  line-height: var(--unnamed-line-spacing-15);
+  letter-spacing: var(--unnamed-character-spacing--0-24);
+  color: var(--unnamed-color-042a38);
+}
+
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-druk);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-40);
+  line-height: var(--unnamed-line-spacing-48);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-042a38);
+  text-transform: var(--unnamed-text-transform-uppercase);
+}
+
+.unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-inter);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-22);
+  line-height: var(--unnamed-line-spacing-26);
+  letter-spacing: var(--unnamed-character-spacing--0-66);
+  color: var(--unnamed-color-042a38);
+}
+
+.unnamed-character-style-5 {
+  font-family: var(--unnamed-font-family-inter);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing--0-54);
+  color: var(--unnamed-color-042a38);
+}
+
+.unnamed-character-style-6 {
+  font-family: var(--unnamed-font-family-inter);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing--0-32);
+  color: var(--unnamed-color-042a38);
+}
+
+.unnamed-character-style-7 {
+  font-family: var(--unnamed-font-family-inter);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-13);
+  line-height: var(--unnamed-line-spacing-18);
+  letter-spacing: var(--unnamed-character-spacing--0-39);
+  color: var(--unnamed-color-042a38);
+}
